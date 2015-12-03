@@ -31,7 +31,7 @@ public class Primefactor {
             System.out.print(inputnumber+" = ");
            getPrime(inputnumber);
             
-            System.out.printlnef();
+            System.out.println();
             
         }while (inputnumber != 0);
        
