@@ -1,16 +1,16 @@
-package primefector;
+package 5630213002;
 
 import java.util.Scanner;
 
 public class Primefector {
     
-    private static int primeFactor(int inputnumber) {
+    private static void getPrime(int inputnumber) {
              
         int primenumber = 0;
            for (int i = 2; i <=inputnumber; i++) {
                 
                  while (inputnumber % i == 0) {
-                         primenumber = i;
+                        
                          inputnumber = inputnumber / i;
                          System.out.print(i);
                          
@@ -19,8 +19,7 @@ public class Primefector {
                        }
                 }
             }
-             return primenumber;
-         
+            
          }
     public static void main(String[] args) {
         int inputnumber;
@@ -31,9 +30,9 @@ public class Primefector {
             inputnumber = in.nextInt();
 
             System.out.print(inputnumber+" = ");
-            primeFactor(inputnumber);
+           getPrime(inputnumber);
             
-            System.out.print("\n\n");
+            System.out.println();
             
         }while (inputnumber != 0);
        
