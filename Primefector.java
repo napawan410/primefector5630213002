@@ -2,11 +2,10 @@ package 5630213002;
 
 import java.util.Scanner;
 
-public class Primefector {
+public class Primefactor {
     
     private static void getPrime(int inputnumber) {
              
-        int primenumber = 0;
            for (int i = 2; i <=inputnumber; i++) {
                 
                  while (inputnumber % i == 0) {
@@ -32,7 +31,7 @@ public class Primefector {
             System.out.print(inputnumber+" = ");
            getPrime(inputnumber);
             
-            System.out.println();
+            System.out.printlnef();
             
         }while (inputnumber != 0);
        
